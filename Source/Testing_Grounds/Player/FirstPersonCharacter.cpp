@@ -86,7 +86,7 @@ void AFirstPersonCharacter::BeginPlay()
 	// Show or hide the two versions of the gun based on whether or not we're using motion controllers.
 	if (bUsingMotionControllers)
 	{
-		VR_Gun->SetHiddenInGame(false, true);
+		VR_Gun->SetHiddenInGame(false,true);
 		Mesh1P->SetHiddenInGame(true, true);
 	}
 	else
